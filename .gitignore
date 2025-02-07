@@ -1,0 +1,60 @@
+# Python のキャッシュファイル・コンパイル済みファイル
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 仮想環境ディレクトリ
+venv/
+ENV/
+env/
+.venv/
+
+# パッケージ関連
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# テスト、カバレッジ関連
+.tox/
+.nox/
+coverage.xml
+.coverage
+.cache
+nosetests.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ドキュメント生成関連
+docs/_build/
+
+# IDE・エディタの設定ファイル
+.vscode/
+.idea/
+
+# OS 関連
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ログファイル
+*.log
+
+# 一時ファイル
+*.tmp
+
+# 環境変数ファイル（機密情報を含む場合は除外）
+.env
